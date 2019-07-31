@@ -2,6 +2,10 @@
 ---
 @import 'jekyll-theme-hacker';
 
+header {
+  border-bottom: 1px dashed #00b4ff; 
+}
 header h1 {
   color: #00b4ff;
 }
+
