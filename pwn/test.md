@@ -2,6 +2,8 @@
 title: Test
 description: Test
 categories: pwn
+jsarr:
+- assets/js/script.js
 ---
 
 # Pwning everything
