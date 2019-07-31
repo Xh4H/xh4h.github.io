@@ -2,6 +2,10 @@
 ---
 @import 'jekyll-theme-hacker';
 
+body {
+  background-attachment: fixed; /* Move background image on scroll */
+  background: #151515 url("../images/blogbg.jpg") 0 0;
+}
 header {
   border-bottom: 1px dashed #00b4ff; 
 }
