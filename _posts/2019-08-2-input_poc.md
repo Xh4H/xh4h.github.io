@@ -3,9 +3,8 @@ title: Python 2.7 input vulnerability
 description: Python 2.7 input vulnerability | PoC - /bin/bash shell example
 categories: python
 ---
-<!-- put it in the post layout
 <link rel="shortcut icon" type="image/x-icon" href="images/favicon-32x32.png">
--->
+
 
 <!-- title is already displayed by the post layout
 # Python 2.7 input security vulnerability-->
