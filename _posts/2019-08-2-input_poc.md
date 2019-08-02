@@ -1,5 +1,5 @@
 ---
-title: Python 2.7 input security issue
+title: Python 2.7 input? /bin/bash !!
 description: Using Python's input function to get a /bin/bash shell
 categories: python/input
 author: Xh4H
