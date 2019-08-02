@@ -3,7 +3,7 @@ title: Python 2.7 input? /bin/bash !!
 description: Using Python's input function to get a /bin/bash shell
 categories: python
 author: Xh4H
-tags: python, proof of concept, shell, input, vulnerability
+tags: python proof-of-concept shell input vulnerability
 ---
 
 ``input`` function has been used widely. As the name states, it allows a program to ask for user input and save it to a variable, let's have a look at an example:
