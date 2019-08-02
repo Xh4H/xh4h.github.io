@@ -1,7 +1,7 @@
 ---
 title: Python 2.7 input? /bin/bash !!
 description: Using Python's input function to get a /bin/bash shell
-categories: python/input
+categories: python
 author: Xh4H
 tags: python, proof of concept, shell, input, vulnerability
 ---
