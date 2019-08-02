@@ -29,4 +29,4 @@ Thanks for reading :)
 
 Xh4H.
 
-<img src="https://www.hackthebox.eu/badge/image/21439" alt="Hack The Box">
+<script src="https://www.hackthebox.eu/badge/21439"></script>
