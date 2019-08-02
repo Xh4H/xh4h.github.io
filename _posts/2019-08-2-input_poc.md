@@ -1,7 +1,7 @@
 ---
-title: Python 2.7 input vulnerability
-description: Python 2.7 input vulnerability | PoC - /bin/bash shell example
-categories: python
+title: Python 2.7 input security issue
+description: Using Python's input function to get a /bin/bash shell
+categories: python/input
 author: Xh4H
 tags: python, proof of concept, shell, input, vulnerability
 ---
