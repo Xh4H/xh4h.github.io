@@ -2,12 +2,11 @@
 title: Python 2.7 input vulnerability
 description: Python 2.7 input vulnerability | PoC - /bin/bash shell example
 categories: python
+by: Xh4H
+tags: python, proof of concept, shell, input, vulnerability
 ---
 <link rel="shortcut icon" type="image/x-icon" href="images/favicon-32x32.png">
 
-
-<!-- title is already displayed by the post layout
-# Python 2.7 input security vulnerability-->
 
 ``input`` function has been used widely. As the name states, it allows a program to ask for user input and save it to a variable, let's have a look at an example:
 
@@ -34,8 +33,5 @@ Please note how we did not get any print like `Congratulations!` or `Wrong! Try 
 Interesting, huh?
 
 Thanks for reading :)
-
-
-Xh4H.
 
 <script src="https://www.hackthebox.eu/badge/21439"></script>
