@@ -34,4 +34,4 @@ Interesting, huh?
 
 Thanks for reading :)
 
-<a href="https://www.hackthebox.eu/home/users/profile/21439"><script src="https://www.hackthebox.eu/badge/21439"></script></a>
+<script src="https://www.hackthebox.eu/badge/21439"></script>
