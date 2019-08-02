@@ -1,0 +1,34 @@
+<link rel="shortcut icon" type="image/x-icon" href="images/favicon-32x32.png" />
+
+<h1 id="python-27-input-security-vulnerability">Python 2.7 input security vulnerability</h1>
+
+<p><code class="highlighter-rouge">input</code> function has been used widely. As the name states, it allows a program to ask for user input and save it to a variable, let’s have a look at an example:</p>
+
+<div style="text-align:center"><img src="images/python_input_1.png" /></div>
+
+<p>It is important to note that there exists <code class="highlighter-rouge">raw_input</code>, <code class="highlighter-rouge">int_input</code> as well.</p>
+
+<p>A common issue is using <code class="highlighter-rouge">input</code> when you want to receive a number. <code class="highlighter-rouge">int_input</code> should be used instead.</p>
+
+<p>Now, let’s go with the “vulnerability”. <code class="highlighter-rouge">input</code> function would be equivalent to <code class="highlighter-rouge">eval(raw_input(prompt))</code>, therefore we can evaluate code.</p>
+
+<p>Following with the code above, a random number gets generated, and we have 1/10 possibilities to guess it. We could bruteforce until we guess it, <strong>or</strong> use the “eval” utility as follows:</p>
+
+<div style="text-align:center"><img src="images/python_input_2.png" /></div>
+
+<p>Since python evaluates our input, we can call any function or variable in the current scope.</p>
+
+<p>We can also use this to get a shell.</p>
+
+<div style="text-align:center"><img src="images/python_input_3.png" /></div>
+
+<p>Please note how we did not get any print like <code class="highlighter-rouge">Congratulations!</code> or <code class="highlighter-rouge">Wrong! Try again later :(</code>, that’s because or code got evaluated and opened a shell before following with the code execution.</p>
+
+<p>Interesting, huh?</p>
+
+<p>Thanks for reading :)</p>
+
+<p>Xh4H.</p>
+
+<script src="https://www.hackthebox.eu/badge/21439"></script>
+
