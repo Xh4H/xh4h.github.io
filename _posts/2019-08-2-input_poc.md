@@ -2,7 +2,7 @@
 title: Python 2.7 input vulnerability
 description: Python 2.7 input vulnerability | PoC - /bin/bash shell example
 categories: python
-by: Xh4H
+author: Xh4H
 tags: python, proof of concept, shell, input, vulnerability
 ---
 <link rel="shortcut icon" type="image/x-icon" href="images/favicon-32x32.png">
