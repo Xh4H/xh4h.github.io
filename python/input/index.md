@@ -28,7 +28,7 @@ We can also use this to get a shell.
 
 Please note how we did not get any print like `Congratulations!` or `Wrong! Try again later :(`, that's because or code got evaluated and opened a shell before following with the code execution.
 
-Interesting huh?
+Interesting, huh?
 
 Thanks for reading :)
 
