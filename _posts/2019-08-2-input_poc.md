@@ -29,7 +29,7 @@ Since python evaluates our input, we can call any function or variable in the cu
 
 We can also use this to get a shell. 
 
-<div style="text-align:center"><img src="/assetsimages/python_input_3.png" /></div>
+<div style="text-align:center"><img src="/assets/images/python_input_3.png" /></div>
 
 Please note how we did not get any print like `Congratulations!` or `Wrong! Try again later :(`, that's because or code got evaluated and opened a shell before following with the code execution.
 
