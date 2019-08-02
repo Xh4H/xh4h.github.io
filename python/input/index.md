@@ -3,3 +3,23 @@
 ``input`` function has been used widely. As the name states, it allows a program to ask for user input and save it to a variable, let's have a look at an example:
 
 ![](images/python_input_1.png)
+
+It is important to note that there exists ``raw_input``, ``int_input`` as well.
+
+A common issue is using ``input`` when you want to receive a number. ``int_input`` should be used instead.
+
+Now, let's go with the "vulnerability". ``input`` function would be equivalent to ``eval(raw_input(prompt))``, therefore we can evaluate code.
+
+Following with the code above, a random number gets generated, and we have 1/10 possibilities to guess it. We could bruteforce until we guess it, **or** use the "eval" utility as follows:
+
+![](images/python_input_2.png)
+
+Since python evaluates our input, we can call any function or variable in the current scope.
+
+We can also use this to get a shell. 
+
+![](images/python_input_3.png)
+
+Please note how we did not get any print ("Congratulations!" | "Wrong! Try again later :("), that's because or code got evaluated and opened a shell before following with the code execution.
+
+Interesting huh?
