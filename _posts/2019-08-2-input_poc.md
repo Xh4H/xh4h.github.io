@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Python 2.7 input vulnerability
 description: Python 2.7 input vulnerability | PoC - /bin/bash shell example
 categories: python
