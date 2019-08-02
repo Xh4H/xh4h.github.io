@@ -5,11 +5,6 @@ categories: python
 author: Xh4H
 tags: python, proof of concept, shell, input, vulnerability
 ---
-<head>
-	<link rel="shortcut icon" type="image/x-icon" href="images/favicon-32x32.png">
-</head>
-
-
 
 ``input`` function has been used widely. As the name states, it allows a program to ask for user input and save it to a variable, let's have a look at an example:
 
