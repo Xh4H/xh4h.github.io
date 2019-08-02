@@ -2,7 +2,7 @@
 
 ``input`` function has been used widely. As the name states, it allows a program to ask for user input and save it to a variable, let's have a look at an example:
 
-![](images/python_input_1.png)
+<div style="text-align:center"><img src="images/python_input_1.png" /></div>
 
 It is important to note that there exists ``raw_input``, ``int_input`` as well.
 
@@ -12,13 +12,13 @@ Now, let's go with the "vulnerability". ``input`` function would be equivalent t
 
 Following with the code above, a random number gets generated, and we have 1/10 possibilities to guess it. We could bruteforce until we guess it, **or** use the "eval" utility as follows:
 
-![](images/python_input_2.png)
+<div style="text-align:center"><img src="images/python_input_2.png" /></div>
 
 Since python evaluates our input, we can call any function or variable in the current scope.
 
 We can also use this to get a shell. 
 
-![](images/python_input_3.png)
+<div style="text-align:center"><img src="images/python_input_3.png" /></div>
 
 Please note how we did not get any print ("Congratulations!" | "Wrong! Try again later :("), that's because or code got evaluated and opened a shell before following with the code execution.
 
