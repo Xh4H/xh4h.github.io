@@ -10,8 +10,6 @@ This is the second part of [Python 2.7 input security issues](https://posts.xh4h
 
 In this post we will see what can be done appart from spawning a shell.
 
-<br>
-
 # Getting variable values
 
 ## Case 1 - string variable:
