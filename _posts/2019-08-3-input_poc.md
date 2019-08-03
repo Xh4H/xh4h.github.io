@@ -1,5 +1,5 @@
 ---
-title: Python - Hacking with input
+title: Python - Hacking with style - input
 description: Magic python input to compromise scripts
 categories: python
 author: Xh4H
