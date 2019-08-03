@@ -77,9 +77,9 @@ except Exception as e:
 
 If we put into practice the previous technique, we will get the `What are you doing?!` print, since any exception is being handled now.
 
-We are going to have a look at **two** different techniques.
+We are going to have a look at **three** different techniques.
 
-_Please note, `Case 3.2` can also be solved with `Case 3.1`, but the aim is having different cases to explore different possibilities._
+_Please note, the following cases can also be solved with `Case 3.1`, but the aim is having different cases to explore different possibilities._
 
 ### Case 3.1 - Re-using input function over and over ...
 
