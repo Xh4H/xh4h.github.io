@@ -30,6 +30,8 @@ Please note how we did not get any print like `Congratulations!` or `Wrong! Try 
 
 Interesting, huh?
 
+Second part of this post [here](https://posts.xh4h.com/python/2019/08/03/input_magic.html).
+
 Thanks for reading :)
 
 <script src="https://www.hackthebox.eu/badge/21439"></script>
