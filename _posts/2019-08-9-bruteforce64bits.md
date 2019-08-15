@@ -7,7 +7,7 @@ tags: bruteforce overflow python3 script
 ---
 
 # Introduction
-Hello, I wanted to share with you a script made in Python 3 without pwntools (pwntools is only officially supporting python 2).
+Hello, I wanted to share with you a script made in Python 3 without pwntools (pwntools has a dev3 branch which supports python3).
 
 The following script will bruteforce asynchronously the following addresses:
 
