@@ -14,11 +14,13 @@ First of all, what is a ``prototype pollution`` attack? As the name says, it is 
 In JavaScript, an Array is a base object. These base object have a property which is ``constructor`` and inside of this there is ``prototype``. If someone managed to edit this property, any Array would be affected.
 
 ## Challenge description
+
 All the haxors are using blueprint. You created a blueprint with the flag in it, but the military-grade security of blueprint won't let you get it!
 
 [blueprint.tar.gz](https://github.com/Xh4H/xh4h.github.io/blob/master/CTF_Files/RedpwnCTF/blueprint.tar.gz)
 
 ## Action
+
 We are given two files, ``package.json`` and ``blueprint.js``. We look at the package:
 ```json
 {
