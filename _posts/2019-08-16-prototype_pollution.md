@@ -77,11 +77,12 @@ Lodash module, and many other npm modules ([this](https://github.com/HoLyVieR/pr
 If you are using lodash, simply update it.
 If you are performing deep copies or using any affected module, this can be fixed rather easily. The ECMAScript standard version 5 introduced a very interesting set of functionality to the JavaScript language, ``Object.freeze``. When that function is called on an object, any further modification on that object will silently fail. Since the prototype of ``Object`` is an object, it's possible to freeze it. Doing so will mitigate almost all the exploitable case. 
 
+```js
 1. Object.freeze(Object.prototype);
 2. Object.freeze(Object);
 3. ({}).__proto__.test = 123;
 4. ({}).test; // this will be undefined
-
+```
 
 Thanks for reading :)
 
