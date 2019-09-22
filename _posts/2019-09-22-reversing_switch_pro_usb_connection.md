@@ -119,10 +119,10 @@ const csv = require("csvtojson");
 let chars = [];
 
 let dpad = {
-    '01':'D',
-    '02':'U',
-    '04':'R',
-    '08':'L'
+	'01':'D',
+	'02':'U',
+	'04':'R',
+	'08':'L'
 }
 
 let buttons = {
