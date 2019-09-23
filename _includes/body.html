@@ -3,9 +3,7 @@
 		{%- assign default_paths = site.pages | map: "path" -%}
 		{%- assign page_paths = site.header_pages | default: default_paths -%}
 		{%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
-		<a href="{{ site.url }}" class="title">
-			<h1>{{ site.title | default: site.github.repository_name }}</h1>
-		</a>
+		<h1>{{ site.title | default: site.github.repository_name }}</h1>
 		<a class="btn" href="https://posts.xh4h.com/">Home</a>
 		<a class="btn" href="https://github.com/Xh4H/"><i class="icon-github"></i> GitHub</a>
 	</div>
