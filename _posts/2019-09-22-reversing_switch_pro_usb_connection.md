@@ -20,6 +20,7 @@ Here is a recording of the flag being entered into the app.html HTML5 applicatio
 ```
 
 **Action**
+
 We are given a Packet Capture file (.pcap) and a link to a site. Let's start by accessing the site.
 
 <div style="text-align:center"><img src="/assets/images/pcap_1.png"/></div>
