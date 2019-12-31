@@ -1,5 +1,5 @@
 ---
-title: 36C3 Senior CTF - SQLi through file metadata - file magician 
+title: 36C3 Senior CTF - SQLi through file metadata to PHP RCE - file magician 
 description: Performing SQL injection using file metadata to earn PHP RCE
 categories: ctf 36c3 senior
 author: Xh4H
