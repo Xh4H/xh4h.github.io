@@ -103,7 +103,7 @@ It will bring us to a link like this `http://x.x.x.x:8000/files/70d80f242200060e
 
 Change the last 2 with `k.php` and we will be able to execute PHP code using the 
 ```php
-`$_GET[j])`
+`$_GET[j]`
 ```
 that we placed before, as we will be accessing a php file that will be executed by the server. Use `j` as url parameter to execute any command within the host system.
 
