@@ -47,7 +47,7 @@ Here is an example:
 
 <div style="text-align:center"><img src="/assets/images/36c3/gunzip1.png"/></div>
 
-Check how running `file` over the created gunzip displays the name of the original file **between double quotes**, which will break the SQL sentence. In the following image we can see in red the double quotes that will break the SQL sentence, in gray is our file metadata and finally in yellow, the previous file name, where will be inject our SQL injection.
+Check how running `file` over the created gunzip displays the name of the original file **between double quotes**, which will break the SQL sentence. In the following image we can see in red the double quotes that will break the SQL sentence, in gray is our file metadata and finally in yellow, the previous file name, where will be inject our SQL code.
 
 <div style="text-align:center"><img src="/assets/images/36c3/carbon_1.png"/></div>
 
