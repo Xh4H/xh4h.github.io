@@ -1,5 +1,5 @@
 ---
-title: <Pending>
+title: Various WhatsApp design flaws
 description: WhatsApp design flaws
 categories: web whatsapp
 author: Xh4H
