@@ -67,6 +67,9 @@ The client of the recipient should always fetch the preview of the URL received 
 ## Conclusion
 WhatsApp, being the most popular messaging app, it still has various architectural misdesigns, from which I have only talked about two of them. I reported these issues to WhatsApp's team 2 years ago and no response was received from their side. I hope this shines some light on this.
 
+## Disclaimer
+This study was made purely for educational purposes. The author is not responsible for any misuse of the information provided.
+
 ## Thank you
 Thanks to [@S4vitar](https://twitter.com/S4vitar) for allowing me to test with him.
 
