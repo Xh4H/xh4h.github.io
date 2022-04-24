@@ -33,6 +33,10 @@ Usual behaviour in messaging applications. The problem is that the implementatio
 #### Suggested solution
 The fix is rather simple, these requests should be performed from WhatsApp's servers, they should act as a proxy to request and deliver these kind of requests. Having a look at other messaging apps, like Telegram and Discord, they indeed follow this approach.
 
+Edit for clarification reasons: I am not suggesting WA's servers to be aware of who is requesting these requests as that would be a very bad practice, but rather to act as a middleman. I have created the following simple diagram to illustrate this:
+
+<div style="text-align:center"><img src="/assets/images/whatsapp8.png"/></div>
+
 ### 2. Phishing is a piece of cake
 #### Problem
 After investigating how WhatsApp Web sent messages, I found out we could modify the message object that was being used by this application before it was sent to the server.
