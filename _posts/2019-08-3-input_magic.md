@@ -6,7 +6,7 @@ author: Xh4H
 tags: python proof-of-concept shell input vulnerability
 ---
 
-This is the second part of [Python 2.7 input security issues](https://posts.xh4h.com/python/2019/08/02/input_poc.html) post.
+This is the second part of [Python 2.7 input security issues](https://xh4h.github.io/python/2019/08/02/input_poc.html) post.
 
 In this post we will see what can be done appart from spawning a shell.
 

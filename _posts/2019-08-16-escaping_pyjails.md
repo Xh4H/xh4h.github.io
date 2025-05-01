@@ -75,7 +75,7 @@ Time to send this to the jail!
 
 <div style="text-align:center"><img src="/assets/images/pyjail3.png" /></div>
 
-Please note how I added the int function in order to make it throw an exception containing the flag. I analyzed this technique in my other post called [Python - Hacking with style - input](https://posts.xh4h.com/python/2019/08/03/input_magic.html).
+Please note how I added the int function in order to make it throw an exception containing the flag. I analyzed this technique in my other post called [Python - Hacking with style - input](https://xh4h.github.io/python/2019/08/03/input_magic.html).
 
 **flag**: flag{bl4ckl1sts_w0rk_gre3344T!}
 
@@ -167,7 +167,7 @@ Instead of building a long chain of chr(number), it could have been solved as we
 
 
 ### Notes for genericpyjail2
-Appart from having used ``().__class__.__base__.__subclasses__()[59]()._module.__builtins__['print']`` to print, we could have used one from the builtins we saw, ``raw_input``, by having passed as parameter ``().__class__.__base__.__subclasses__()``. Remember I analyzed this in the post [mentioned earlier](https://posts.xh4h.com/python/2019/08/03/input_magic.html).
+Appart from having used ``().__class__.__base__.__subclasses__()[59]()._module.__builtins__['print']`` to print, we could have used one from the builtins we saw, ``raw_input``, by having passed as parameter ``().__class__.__base__.__subclasses__()``. Remember I analyzed this in the post [mentioned earlier](https://xh4h.github.io/python/2019/08/03/input_magic.html).
 
 <div style="text-align:center"><img src="/assets/images/pyjail7.png" /></div>
 Thanks for reading :)
